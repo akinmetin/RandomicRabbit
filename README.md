@@ -31,6 +31,9 @@ These instructions will get you a copy of the project up and running on a docker
 
 All types usage of this project is required permission from owner of the repository.
 
+## Screenshots
+![Image of User Interface](https://raw.githubusercontent.com/akinmetin/RandomicRabbit/master/screenshots/user-interface.jpg)
+
 ## Resources
 
 I used these resources to solve some problems and get information about the topics.
