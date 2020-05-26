@@ -27,6 +27,8 @@ These instructions will get you a copy of the project up and running on a docker
 
 *   Build it using ``docker-compose build`` and run it using ``docker-compose up -d``.
 
+*   User interface will be reachable at ``http://127.0.0.1:8080/``
+
 ## Licensing
 
 All types usage of this project is required permission from owner of the repository.
