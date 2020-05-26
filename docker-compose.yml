@@ -1,0 +1,20 @@
+version: '3'
+services:
+  app:
+    build: "."
+    depends_on:
+      - "web"
+    volumes:
+      - "./backend:/src"
+    ports:
+     - 5000:5000
+  web:
+    image: nginx:1.17.10
+    volumes:
+     - ./frontend:/usr/share/nginx/html
+    ports:
+     - "8080:80"
+    environment:
+     - NGINX_HOST=127.0.0.1
+     - NGINX_PORT=80
+    command: /bin/bash -c "exec nginx -g 'daemon off;'"
